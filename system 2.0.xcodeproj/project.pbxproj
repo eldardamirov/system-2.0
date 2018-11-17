@@ -28,6 +28,7 @@
 		8665802521A05BF1008866A1 /* profiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profiler.h; sourceTree = "<group>"; };
 		8665802621A05BF1008866A1 /* fileIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileIO.h; sourceTree = "<group>"; };
 		8665802721A05C1B008866A1 /* asm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asm.h; sourceTree = "<group>"; };
+		8665802821A05E75008866A1 /* commands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commands.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			children = (
 				8665801E21A05ABF008866A1 /* main.cpp */,
 				8665802721A05C1B008866A1 /* asm.h */,
+				8665802821A05E75008866A1 /* commands.h */,
 				8665802621A05BF1008866A1 /* fileIO.h */,
 				8665802521A05BF1008866A1 /* profiler.h */,
 			);
