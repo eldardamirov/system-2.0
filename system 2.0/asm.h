@@ -30,6 +30,9 @@ enum processorCommands
     };
 */
 
+#ifdef compiler_h
+    std::string 
+#endif
   
 DEF_CMD ( HLT, 0 ),
 DEF_CMD ( IN, 1 ),
@@ -57,7 +60,14 @@ DEF_CMD ( CALL, 22 ),
 DEF_CMD ( borderARGUMENT, 23 ),
 DEF_CMD ( PUSH, 24 ),
 DEF_CMD ( POP, 25 ),
-DEF_CMD ( cpuLAST, 26 ),
+DEF_CMD ( cpuLAST, 26 )
 
+#ifndef compiler_h
+    ,
+#endif
+
+#ifdef compiler_h
+    ;
+#endif
 
 #endif /* asmCommands_h */

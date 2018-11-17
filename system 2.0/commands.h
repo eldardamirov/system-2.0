@@ -17,6 +17,13 @@ enum commands
 
     };
 
-#undef DEF_CMD    
+#undef DEF_CMD   
+   
+#define STR(x) #x
+#define DEF_CMD(name, number), std::string CMD_##name = STR(name);
+
+#include "asm.h"
+
+#undef DEF_CMD
 
 #endif /* commands_h */

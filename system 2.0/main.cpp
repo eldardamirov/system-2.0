@@ -7,10 +7,12 @@
 //
 
 #include <iostream>
-#include "commands.h"
+//#include "commands.h"
+#include "compiler.h"
 
 int main() 
     {
+    std::cout << "JMP Cmd No: " << CMD_JMP << "\n";
    
     return 0;
     }
