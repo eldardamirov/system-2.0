@@ -9,12 +9,12 @@
 #ifndef commands_h
 #define commands_h
 
-#define DEF_CMD (name, number) CMD_##name = number
+#define DEF_CMD(name, number) CMD_##name = number
 
 enum commands
     {
     #include "asm.h"
-    
+
     };
 
 #undef DEF_CMD    

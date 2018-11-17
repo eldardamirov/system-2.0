@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include "commands.h"
 
 int main() 
     {
