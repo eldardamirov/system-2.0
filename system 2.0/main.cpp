@@ -12,7 +12,7 @@
 
 int main() 
     {
-    std::cout << "JMP Cmd No: " << CMD_JMP << "\n";
+    std::cout << "JMP Cmd No: " << CMD_jmp << "\n";
    
     return 0;
     }
