@@ -29,6 +29,7 @@
 		8665802621A05BF1008866A1 /* fileIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileIO.h; sourceTree = "<group>"; };
 		8665802721A05C1B008866A1 /* asm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asm.h; sourceTree = "<group>"; };
 		8665802821A05E75008866A1 /* commands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commands.h; sourceTree = "<group>"; };
+		867F166621A8A76E00C6ED33 /* cpuCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cpuCore.h; sourceTree = "<group>"; };
 		86EE7AE921A0BEAE002E0B8C /* basicMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basicMethods.h; sourceTree = "<group>"; };
 		86EE7AEA21A0BEAE002E0B8C /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		86EE7AEB21A0BEAF002E0B8C /* logsConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logsConstants.h; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				8665801E21A05ABF008866A1 /* main.cpp */,
+				867F166621A8A76E00C6ED33 /* cpuCore.h */,
 				8665802721A05C1B008866A1 /* asm.h */,
 				8665802821A05E75008866A1 /* commands.h */,
 				8665802621A05BF1008866A1 /* fileIO.h */,
